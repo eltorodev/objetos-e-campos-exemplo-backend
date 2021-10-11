@@ -1,0 +1,31 @@
+{
+  "name": "cpex-force-api",
+  "version": "1.0.0",
+  "description": "API para obter dados do banco para o aplicativo e usá-los no modo on-line",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPEX-Embrioes/CPEX-Force-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPEX-Embrioes/CPEX-Force-API/issues"
+  },
+  "homepage": "https://github.com/CPEX-Embrioes/CPEX-Force-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
